@@ -29,7 +29,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Your Adventure"/>
                                 <connections>
-                                    <segue destination="uam-iA-UUw" kind="show" id="8Ll-UY-qHQ"/>
+                                    <segue destination="uam-iA-UUw" kind="show" identifier="startAdventure" id="8Ll-UY-qHQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="1186" y="793"/>
         </scene>
-        <!--View Controller-->
+        <!--Page Controller-->
         <scene sceneID="zY3-Ut-QLT">
             <objects>
-                <viewController id="uam-iA-UUw" sceneMemberID="viewController">
+                <viewController id="uam-iA-UUw" customClass="PageController" customModule="Interactive_Story" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ox6-4V-kfE"/>
                         <viewControllerLayoutGuide type="bottom" id="lCc-bu-fyD"/>

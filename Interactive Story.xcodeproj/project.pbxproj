@@ -14,6 +14,9 @@
 		D300492D1EE3B4FC006D80A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D300492B1EE3B4FC006D80A4 /* LaunchScreen.storyboard */; };
 		D30049381EE3B4FC006D80A4 /* Interactive_StoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30049371EE3B4FC006D80A4 /* Interactive_StoryTests.swift */; };
 		D30049431EE3B4FC006D80A4 /* Interactive_StoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30049421EE3B4FC006D80A4 /* Interactive_StoryUITests.swift */; };
+		D30049511EE3C187006D80A4 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30049501EE3C187006D80A4 /* Story.swift */; };
+		D30049531EE3C4E9006D80A4 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30049521EE3C4E9006D80A4 /* Page.swift */; };
+		D30049551EE3D60A006D80A4 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30049541EE3D60A006D80A4 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D300493E1EE3B4FC006D80A4 /* Interactive StoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interactive StoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30049421EE3B4FC006D80A4 /* Interactive_StoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactive_StoryUITests.swift; sourceTree = "<group>"; };
 		D30049441EE3B4FC006D80A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30049501EE3C187006D80A4 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		D30049521EE3C4E9006D80A4 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		D30049541EE3D60A006D80A4 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				D30049221EE3B4FC006D80A4 /* AppDelegate.swift */,
 				D30049241EE3B4FC006D80A4 /* ViewController.swift */,
+				D30049501EE3C187006D80A4 /* Story.swift */,
+				D30049521EE3C4E9006D80A4 /* Page.swift */,
+				D30049541EE3D60A006D80A4 /* PageController.swift */,
 				D30049261EE3B4FC006D80A4 /* Main.storyboard */,
 				D30049291EE3B4FC006D80A4 /* Assets.xcassets */,
 				D300492B1EE3B4FC006D80A4 /* LaunchScreen.storyboard */,
@@ -261,6 +270,9 @@
 			files = (
 				D30049251EE3B4FC006D80A4 /* ViewController.swift in Sources */,
 				D30049231EE3B4FC006D80A4 /* AppDelegate.swift in Sources */,
+				D30049531EE3C4E9006D80A4 /* Page.swift in Sources */,
+				D30049511EE3C187006D80A4 /* Story.swift in Sources */,
+				D30049551EE3D60A006D80A4 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +515,7 @@
 				D30049491EE3B4FC006D80A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D300494A1EE3B4FC006D80A4 /* Build configuration list for PBXNativeTarget "Interactive StoryTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				D300494C1EE3B4FC006D80A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D300494D1EE3B4FC006D80A4 /* Build configuration list for PBXNativeTarget "Interactive StoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				D300494F1EE3B4FC006D80A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
