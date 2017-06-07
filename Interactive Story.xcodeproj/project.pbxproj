@@ -17,6 +17,10 @@
 		D30049511EE3C187006D80A4 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30049501EE3C187006D80A4 /* Story.swift */; };
 		D30049531EE3C4E9006D80A4 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30049521EE3C4E9006D80A4 /* Page.swift */; };
 		D30049551EE3D60A006D80A4 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30049541EE3D60A006D80A4 /* PageController.swift */; };
+		D33DEB131EE74F7E00EB3A63 /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D33DEB101EE74F7E00EB3A63 /* HappyEnding.wav */; };
+		D33DEB141EE74F7E00EB3A63 /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = D33DEB111EE74F7E00EB3A63 /* Ominous.wav */; };
+		D33DEB151EE74F7E00EB3A63 /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D33DEB121EE74F7E00EB3A63 /* PageTurn.wav */; };
+		D33DEB171EE7503100EB3A63 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33DEB161EE7503100EB3A63 /* Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		D30049501EE3C187006D80A4 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		D30049521EE3C4E9006D80A4 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		D30049541EE3D60A006D80A4 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		D33DEB101EE74F7E00EB3A63 /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
+		D33DEB111EE74F7E00EB3A63 /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
+		D33DEB121EE74F7E00EB3A63 /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		D33DEB161EE7503100EB3A63 /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +111,13 @@
 		D30049211EE3B4FC006D80A4 /* Interactive Story */ = {
 			isa = PBXGroup;
 			children = (
+				D33DEB0F1EE74F6D00EB3A63 /* Resources */,
 				D30049221EE3B4FC006D80A4 /* AppDelegate.swift */,
 				D30049241EE3B4FC006D80A4 /* ViewController.swift */,
 				D30049501EE3C187006D80A4 /* Story.swift */,
 				D30049521EE3C4E9006D80A4 /* Page.swift */,
 				D30049541EE3D60A006D80A4 /* PageController.swift */,
+				D33DEB161EE7503100EB3A63 /* Audio.swift */,
 				D30049261EE3B4FC006D80A4 /* Main.storyboard */,
 				D30049291EE3B4FC006D80A4 /* Assets.xcassets */,
 				D300492B1EE3B4FC006D80A4 /* LaunchScreen.storyboard */,
@@ -132,6 +142,16 @@
 				D30049441EE3B4FC006D80A4 /* Info.plist */,
 			);
 			path = "Interactive StoryUITests";
+			sourceTree = "<group>";
+		};
+		D33DEB0F1EE74F6D00EB3A63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D33DEB111EE74F7E00EB3A63 /* Ominous.wav */,
+				D33DEB121EE74F7E00EB3A63 /* PageTurn.wav */,
+				D33DEB101EE74F7E00EB3A63 /* HappyEnding.wav */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33DEB141EE74F7E00EB3A63 /* Ominous.wav in Resources */,
 				D300492D1EE3B4FC006D80A4 /* LaunchScreen.storyboard in Resources */,
 				D300492A1EE3B4FC006D80A4 /* Assets.xcassets in Resources */,
+				D33DEB131EE74F7E00EB3A63 /* HappyEnding.wav in Resources */,
+				D33DEB151EE74F7E00EB3A63 /* PageTurn.wav in Resources */,
 				D30049281EE3B4FC006D80A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33DEB171EE7503100EB3A63 /* Audio.swift in Sources */,
 				D30049251EE3B4FC006D80A4 /* ViewController.swift in Sources */,
 				D30049231EE3B4FC006D80A4 /* AppDelegate.swift in Sources */,
 				D30049531EE3C4E9006D80A4 /* Page.swift in Sources */,
